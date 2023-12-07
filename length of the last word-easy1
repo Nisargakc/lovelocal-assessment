@@ -1,0 +1,16 @@
+def length_of_last_word(s):
+    words = s.split()
+    if not words:
+        return 0
+    return len(words[-1])
+s1 = "Hello World"
+result1 = length_of_last_word(s1)
+print(result1)
+
+s2 = "fly me to the moon"
+result2 = length_of_last_word(s2)
+print(result2)
+
+s3 = "luffy is still joyboy"
+result3 = length_of_last_word(s3)
+print(result3)
